@@ -62,7 +62,7 @@ BlockChain is a Linked-List using HashPointers and Block.
 
 Genesis Block--------------Most Recently Block
 
-![image-20250903223321458](D:\Backend\blockchain\DemoImage\BlockChain01.png)
+![image-20250903223321458](https://github.com/kair998/BlockChain/blob/main/DemoImage/BlockChain01.png)
 
 hash指针的计算方法：前面的区块及其hash指针整体取哈希(Tample-evident log)。防篡改，检测出对区块链任意部分的修改。
 
@@ -72,7 +72,7 @@ Merkle Tree
 
 Binary Tree
 
-![image-20250904121951482](D:\Backend\blockchain\DemoImage\MerkleTree01.png)
+![image-20250904121951482](https://github.com/kair998/BlockChain/blob/main/DemoImage/MerkleTree01.png)
 
 Root Hash
 
@@ -84,7 +84,7 @@ Block Header Block Body
 
 Merkle Proof
 
-![image-20250904123213469](D:\Backend\blockchain\DemoImage\MerkleTree02.png)
+![image-20250904123213469](https://github.com/kair998/BlockChain/blob/main/DemoImage/MerkleTree02.png)
 
 交易验证：为了验证（部分交易），向全节点请求未改变的节点（Merkle Tree）的哈希值，与已知的tx交易一起从下往上逐层计算哈希值，最终和轻节点带有的Merkle Root（Block Header）值进行比对。
 
@@ -114,7 +114,7 @@ BitCoins Scripts完成对交易的检验
 
 转账人公钥需和币来源输出指定的公钥相同。
 
-![image-20250904223946686](D:\Backend\blockchain\DemoImage\Transaction01.png)
+![image-20250904223946686](https://github.com/kair998/BlockChain/blob/main/DemoImage/Transaction01.png)
 
 这样的区块构成Merkle Tree，每个区块分为Block Header和Block Body两部分。
 
