@@ -82,7 +82,7 @@ Probability Density & Time to Next Block成反比例
 
 挖矿公平性的保证
 
-![image-20250909160406825](C:\Users\jingl\AppData\Roaming\Typora\typora-user-images\image-20250909160406825.png)
+![image-20250909160406825](https://github.com/kair998/BlockChain/blob/main/DemoImage/Fairness.png)
 
 常见攻击方式；
 
@@ -132,13 +132,13 @@ ETH中出块时间稳定在15s，其有独特的共识协议GHOST，对于orphan
 
 BTC每新产生2016个区块（大约2周）调整一次Target（出块难度）。
 
-![](D:\Image\latex\QianJianTec1757731495642.png)
+![](https://github.com/kair998/BlockChain/blob/main/DemoImage/MiningTarget.png)
 
 BTC区块BlockHeader中的nBits就是Target的编码形式。
 
 能否通过缩减占位而表义相同？
 
-![image-20250913115502966](C:\Users\jingl\AppData\Roaming\Typora\typora-user-images\image-20250913115502966.png)
+![image-20250913115502966](https://github.com/kair998/BlockChain/blob/main/DemoImage/MineDifficulty.png)
 
 挖矿难度与目标阈值成反比
 
